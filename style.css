@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#f3f5f9;
+
+}
+
+/* ================= NAVBAR ================= */
+
+nav{
+
+    width:100%;
+    height:75px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 70px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#163d82;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#0d5bd7;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+    width:1200px;
+
+    margin:60px auto;
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+/* LEFT CARD */
+
+.profile-card{
+
+    width:330px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.profile-card img{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:8px solid #edf1f9;
+
+}
+
+.profile-card h2{
+
+    margin-top:20px;
+
+    font-size:34px;
+
+    color:#102d66;
+
+}
+
+.profile-card h4{
+
+    margin-top:10px;
+
+    color:#2758b7;
+
+}
+
+.profile-card p{
+
+    margin-top:8px;
+
+    color:#555;
+
+}
+
+.profile-card hr{
+
+    margin:25px 0;
+
+}
+
+.contact{
+
+    text-align:left;
+
+}
+
+.contact p{
+
+    margin:15px 0;
+
+}
+
+.contact i{
+
+    width:30px;
+
+    color:#2b5fe0;
+
+}
+
+/* RIGHT SIDE */
+
+.about{
+
+    flex:1;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:45px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.about h1{
+
+    font-size:48px;
+
+    color:#0f2f68;
+
+    margin-bottom:20px;
+
+}
+
+.about p{
+
+    line-height:2;
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+.about h2{
+
+    margin-top:35px;
+
+    color:#10306d;
+
+    font-size:38px;
+
+}
+
+.tags{
+
+    margin-top:25px;
+
+}
+
+.tags span{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    background:#edf3ff;
+
+    color:#295fd7;
+
+    margin:10px;
+
+}
+
+/* Contact Section */
+
+.contact{
+
+    margin-top:25px;
+}
+
+.contact p{
+
+    display:flex;
+    align-items:center;
+
+    margin:18px 0;
+
+    font-size:16px;
+}
+
+.contact i{
+
+    width:28px;
+
+    color:#2563eb;
+
+    font-size:18px;
+}
+
+.contact a{
+
+    color:#444;
+
+    text-decoration:none;
+
+    transition:0.3s ease;
+}
+
+.contact a:hover{
+
+    color:#2563eb;
+
+    padding-left:6px;
+}
+
+/*==============================
+      NEWS SECTION
+==============================*/
+
+
+.papers-section{
+    width:100%;
+    margin-top:60px;
+}
+
+.paper-grid{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+.paper-card{
+    width:100%;
+    background:#fff;
+    border-left:5px solid #2563eb;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.news-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(37,99,235,.20);
+}
+
+.news-date{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:6px 15px;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+    margin-bottom:15px;
+}
+
+.news-card h3{
+
+    color:#123b87;
+
+    margin-bottom:12px;
+}
+
+.news-card p{
+
+    color:#555;
+
+    line-height:1.8;
+}
+
+
+
+/*==============================
+      BEST PAPERS
+==============================*/
+
+.papers-section{
+
+    margin-top:80px;
+}
+
+.paper-grid{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:25px;
+
+    margin-top:30px;
+}
+
+.paper-card{
+
+    width:100%;
+
+    text-align:left;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    border-left:6px solid #2563eb;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+}
+
+.paper-card:hover{
+
+    transform:translateX(10px);
+
+    background:#2563eb;
+
+    color:white;
+}
+
+.paper-card:hover h3,
+.paper-card:hover p{
+
+    color:white;
+}
+
+.paper-card p{
+
+    color:#666;
+
+    font-size:15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222;
+}
